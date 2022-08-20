@@ -2,7 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+# add practice file
+practice.js
 # C extensions
 *.so
 
