@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>UFO Finder</title>
+        <!--bootstrap link and my style.css sheet link-->
         <link
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -16,7 +17,7 @@
     <body class="bg-dark">
         <div class="wrapper">
             <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-                <a class="navbar-brand" href="index.html">UFO Sightings</a>
+                <a class="navbar-brand" href="index.html">UFO Sighings</a>
             </nav>
         </div>
         <div class="jumbotron">
@@ -25,7 +26,7 @@
         <div class="container-fluid">
             <div class="row">
             <div class="col-md-4">
-                <h3>UFO Sightings: Fact of Fancy? <small>Ufologists Weigh In</small></h3>
+                <h3>UFO Sightings: <br>Fact of Fancy? <small><br>Ufologists Weigh In</small></h3>
             </div>
             <div class="col-md-8">
                 <p>
@@ -46,6 +47,7 @@
             </div>
             </div>
         </div>
+        <!--start of filter and table-->
         <div class="container-fluid">
             <div class="row">
             <div class="col-md-3">
@@ -54,16 +56,26 @@
                     <ul class="bg-dark list-group">
                         <li class="bg-dark list-group-item">
                             <label for="date">Enter Date</label>
-                            <input type="text" placeholder="1/10/2010" id="datetime" />
-                        </li>
+                            <input type="text" placeholder="1/10/2010" id="datetime" /></li>
+                        <li class="bg-dark list-group-item">    
+                            <label for="city">Enter City</label>
+                            <input type="text" placeholder="boulder" id="city" /></li>
                         <li class="bg-dark list-group-item">
-                            <button id="filter-btn" type="button" class=" btn btn-dark">
-                                Filter Table
-                            </button>
-                        </li>
+                            <label for="state">Enter State</label>
+                            <input type="text" placeholder="co" id="state" /></li>
+                        <li class="bg-dark list-group-item">
+                            <label for="country">Enter Country</label>
+                            <input type="text" placeholder="us" id="country" /></li>
+                        <li class="bg-dark list-group-item">
+                            <label for="shape">Enter Shape</label>
+                            <input type="text" placeholder="circle" id="shape" /></li>                   
+                        <!-- <li class="list-group-item bg-dark">
+                            <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button></li>
+                        </li> -->
                     </ul>
                 </form>
             </div>
+            <!--table-->
             <div class="col-md-9">
                 <table class="table table-striped">
                 <thead>
