@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 # add practice file
 practice.js
+ufo_starterCode.js
 # C extensions
 *.so
 
